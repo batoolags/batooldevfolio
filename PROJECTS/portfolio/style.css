@@ -1,0 +1,119 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    overflow-x: hidden;
+  }
+  .container {
+    /* border: 1px solid black; */
+    width: 90%;
+    /* height: 100vh; */
+    margin: auto;
+    color: black;
+    margin-top: 40px;
+    background-color: white;
+  }
+  
+  .navbar {
+    /* position: sticky;
+    top: 0px; */
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+  }
+  
+  li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+  }
+  span{
+    font-weight: bolder;
+  } 
+  .bi{
+    font-size: 50px;
+    color: blue;
+  }
+  /* . contact-card1 bi1{
+    color: white;
+  } */
+  .testimonial-card {
+  background: #f1f5f9;
+  border-radius: 12px;
+  padding: 20px;
+}
+.contact-section {
+  background-color: #0f172a;
+  color: white;
+  padding: 80px 0;
+}
+.project{
+  background-color: #0f172a;
+  color: white;
+}
+.contact-card {
+  /* background-color: #245aaf; */
+  width: 280px;
+  padding: 20px;
+  /* border-radius: 10px; */
+  color: white;
+  border: 5px white;
+}
+.contact-card1{
+   background-color: #245aaf;
+  
+   width: 280px;
+   padding: 20px;
+   border-radius: 10px;
+   color: white;
+}
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  background-color: white;
+  color: #0f172a;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+   .hero {
+      background: #e5f0e8;
+      padding: 60px 0;
+    }
+    .hero-text h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .client-logos img {
+      max-height: 40px;
+      margin: 10px;
+      filter: grayscale(100%);
+    }
+    .navbar-brand img {
+      height: 30px;
+    }
